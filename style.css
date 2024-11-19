@@ -1,0 +1,81 @@
+body {
+    margin: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 380px;
+    height: auto;
+    background-color: #fff;
+    margin-top: 5px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    
+}
+
+div.igPost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 8px
+}
+
+.leftPost {
+    display: flex;
+    align-items: center;
+}
+
+.leftPost i {
+    margin-right: 6px;
+    
+}
+
+.logoIG {
+    font-size: 23px;
+}
+
+div.info {
+    display: flex;
+    flex-direction: column;
+    padding-left: 8px;
+    font-size: 12px;
+}
+
+.selection {
+    margin-left: auto;
+}
+
+div.imagePost {
+    width: 100%;
+    overflow: hidden; 
+}
+
+.imagePost img {
+    width: 100%;
+    height: auto; 
+}
+p.likes{
+    font-size: 12px;
+}
+
+div.buttonsIg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+    
+}
+
+.beforeitems{
+font-size: 25px;
+}
+
+.textLikes{
+    padding: 0px 10px 0px 10px;
+}
